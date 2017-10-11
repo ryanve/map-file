@@ -1,4 +1,4 @@
-const mapFile = require("./map-file")
+const mapFile = require("./")
 const assert = require("assert")
 const fs = require("fs")
 const from = "test-read.txt"

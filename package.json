@@ -1,0 +1,30 @@
+{
+  "name": "map-file",
+  "version": "0.0.0",
+  "description": "Map a file into another file",
+  "main": "map-file.js",
+  "scripts": {
+    "pretest": "eslint .",
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanve/map-file.git"
+  },
+  "author": "Ryan Van Etten",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/ryanve/map-file/issues"
+  },
+  "homepage": "https://github.com/ryanve/map-file",
+  "devDependencies": {
+    "eslint": "^4.7.0"
+  },
+  "keywords": [
+    "javascript",
+    "filesystem",
+    "edit",
+    "file",
+    "fs"
+  ]
+}
