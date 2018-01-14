@@ -9,10 +9,15 @@ npm install map-file
 
 ### <code>mapFile({from, to, map=<var>identity</var>}, callback=<var>done</var>)</code>
 
-- `from` is the reading filename. It may be relative or absolute.
-- `to` is the writing filename. It may be relative or absolute.
-- `map` is the function you use to map the content. The default returns the original text.
-- `callback` is a function to call after mapping. The default throws errors and logs success.
+- `from` is the reading filename
+  - supports relative or absolute
+- `to` is the writing filename
+  - supports relative or absolute
+  - makes nonexistent directories via `fs.mkdir`
+- `map` is the function you use to map the content
+  - default returns the original text
+- `callback` is a function to call after mapping
+  - default throws errors and logs success
 
 ## Usage
 
